@@ -6,14 +6,16 @@ import style from "../../styles/styles.scss";
 const Algebra = () => (
   <Layout>
     <Content>
-      <h3 className={style.title}>Álgebra</h3>
+      <h2 className={style.title}>Álgebra</h2>
       <div className={style.contenido}>
         <article>
-          <div className={style.card}>
-            <Link href="/algebra/logica_proposicional">
-              <a>- Lógica proposicional</a>
-            </Link>
-          </div>
+          <ul>
+            <li className={style.card}>
+              <Link href="/algebra/logica_proposicional">
+                <a>- Lógica proposicional</a>
+              </Link>
+            </li>
+          </ul>
         </article>
       </div>
     </Content>

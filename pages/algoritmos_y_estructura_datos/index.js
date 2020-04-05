@@ -6,7 +6,7 @@ import Link from "next/link";
 const AlgoritmoDatos = () => (
   <Layout>
     <Content>
-      <h3 className={style.title}>Algoritmos y estructuras de datos</h3>
+      <h2 className={style.title}>Algoritmos y estructuras de datos</h2>
       <div className={style.contenido}>
         <article>
           <p>No hay nuevas entradas</p>

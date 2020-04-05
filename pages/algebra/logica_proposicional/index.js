@@ -46,7 +46,7 @@ const Proposicional = () => (
         <h3>¿Qué es una proposición o enunciado lógico?</h3>
 
         <p>
-          * Es una expresión con valor informativo que puede ser{" "}
+          Es una expresión con valor informativo que puede ser{" "}
           <span className={style.remarque}>Verdadero</span> o{" "}
           <span className={style.remarque}>Falso</span>, pero no ambos a la vez.
         </p>

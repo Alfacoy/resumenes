@@ -6,7 +6,7 @@ import Link from "next/link";
 const InglesTecnico = () => (
   <Layout>
     <Content>
-      <h3 className={style.title}>Inglés técnico</h3>
+      <h2 className={style.title}>Inglés técnico</h2>
       <div className={style.contenido}>
         <article>
           <p>No hay nuevas entradas</p>

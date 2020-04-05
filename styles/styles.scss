@@ -1,17 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik&display=swap");
-h1,
-h2,
-h3 {
-  margin-top: 0;
-  font-size: 1.8em;
-  letter-spacing: 6px;
-  font-family: "Bebas Neue", cursive;
-}
 
 * {
   box-sizing: border-box;
-  line-height: 1.8em;
-  font-family: "Rubik", sans-serif;
 }
 
 body {
@@ -23,21 +13,35 @@ body {
   background-size: cover; */
 }
 
-p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-size: 1.8em;
+  letter-spacing: 6px;
+  font-family: "Bebas Neue", cursive;
+}
+
+h1,
+h2 {
+  display: inline-block;
+  background-color: yellowgreen;
+  padding: 0 20px;
+}
+
+p,
+li {
+  line-height: 1.8em;
+  font-family: "Rubik", sans-serif;
   text-align: justify;
-  margin: 40px 0;
 }
 
 ul {
   padding: 0;
   margin: 0;
-}
-
-h1,
-h2 {
-  background-color: yellowgreen;
-  padding: 0 20px;
-  text-align: center;
 }
 
 li {

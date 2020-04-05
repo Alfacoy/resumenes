@@ -6,7 +6,7 @@ import Link from "next/link";
 const CTS = () => (
   <Layout>
     <Content>
-      <h3 className={style.title}>Ciencia, tecnología y sociedad</h3>
+      <h2 className={style.title}>Ciencia, tecnología y sociedad</h2>
       <div className={style.contenido}>
         <article>
           <p>No hay nuevas entradas</p>

@@ -6,7 +6,7 @@ import Link from "next/link";
 const PPS = () => (
   <Layout>
     <Content>
-      <h3 className={style.title}>Prácticas profesionalizantes</h3>
+      <h2 className={style.title}>Prácticas profesionalizantes</h2>
       <div className={style.contenido}>
         <article>
           <p>No hay nuevas entradas</p>
