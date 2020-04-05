@@ -8,26 +8,26 @@ const Proposicional = () => (
       <article className={style.fora}>
         <h3>¿Qué es la lógica?</h3>
         <p>
-          * Es una ciencia que se dedica a lo relativo a la razón, a la palabra
-          y a la ciencia.
+          Es una ciencia que se dedica a lo relativo a la razón, a la palabra y
+          a la ciencia.
         </p>
 
-        <p>* El objeto de estudio de la lógica es el artgumento.</p>
+        <p>El objeto de estudio de la lógica es el argumento.</p>
 
         <p>
-          * Un argumento es la base de las ciencias en la forma en la que se
+          Un argumento es la base de las ciencias en la forma en la que se
           pueden transmitir importantes descubrimientos. Además, es la forma mas
           efectiva de convencer de un punto de vista o idea.
         </p>
 
         <p>
-          * Los razonamientos son la base de las ciencias o de los conocimientos
+          Los razonamientos son la base de las ciencias o de los conocimientos
           humanos.
         </p>
 
         <p>
-          * La lógica como ciencia, es aquella que se de dedica a dar pautas
-          para expresar nuestras ideas de manera clara, de ayudarnos a razonar
+          La lógica como ciencia, es aquella que se de dedica a dar pautas para
+          expresar nuestras ideas de manera clara, de ayudarnos a razonar
           correctamente y generar argumentos validos. La lógica es la base de
           todas las ciencias.
         </p>
@@ -183,6 +183,10 @@ const Proposicional = () => (
         </table>
 
         <ul className={style.listas}>
+          <li>
+            Siempre que se niegue, el valor será el{" "}
+            <span className={style.remarque}>contrario</span> del que ya tenga.
+          </li>
           <li>
             Siempre que se compare <span className={style.remarque}>P y Q</span>
             , ambos deben valer 1 para que su resultado de 1. Sino, es 0.
