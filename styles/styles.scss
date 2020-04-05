@@ -1,13 +1,14 @@
+@import "./variables.scss";
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik&display=swap");
 
 * {
   box-sizing: border-box;
+  color: $textColor;
 }
 
 body {
   margin: 0;
-  background-color: #82c7c7;
-
+  background-color: $background;
   /*   background-image: url("/textura.png");
   background-repeat: no-repeat;
   background-size: cover; */
@@ -15,10 +16,7 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   margin-top: 0;
   font-size: 1.8em;
   letter-spacing: 6px;
@@ -28,8 +26,22 @@ h6 {
 h1,
 h2 {
   display: inline-block;
-  background-color: yellowgreen;
+  background-color: $highlight;
   padding: 0 20px;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: underline;
+  font-family: "Bebas Neue", cursive;
 }
 
 p,
@@ -50,11 +62,6 @@ li {
 
 a {
   text-decoration: none;
-  color: black;
-}
-
-a:visited {
-  color: black;
 }
 
 figure {
@@ -62,50 +69,60 @@ figure {
   text-align: center;
 }
 
-.title {
-  text-transform: uppercase;
-  text-decoration: underline;
-  background-color: yellowgreen;
-}
-
-.card {
-  padding: 10px 0;
-}
-
-.contenido {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-
-.fora {
-  padding-bottom: 50px;
-  text-align: center;
-}
-
-.remarque {
-  background-color: yellowgreen;
-  padding: 0 5px;
-}
-
-.listas {
-  text-align: start;
-  h4 {
-    margin: 0;
-  }
-  li {
-    list-style: square;
-  }
-}
-
 table,
 td,
 th {
-  border: 2px solid black;
+  margin-bottom: 30px;
+  border: 2px solid $textColor;
   border-collapse: collapse;
   padding: 3px 10px;
 }
 
 th {
-  background-color: yellowgreen;
+  background-color: $highlight;
 }
+
+/*Cat_styles*/
+.cat_title {
+  text-transform: uppercase;
+  text-decoration: underline;
+  background-color: $highlight;
+}
+
+.cat_card {
+  padding: 10px 0;
+}
+
+.cat_contenido {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Cont_styles*/
+.cont_article {
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.cont_highlight {
+  background-color: $highlight;
+  padding: 0 6px;
+}
+
+.cont_list {
+  text-align: start;
+  margin-bottom: 30px;
+  h4 {
+    margin: 0;
+  }
+  li {
+    list-style: square;
+    padding: 5px 0;
+  }
+}
+
+/*  p::first-letter {
+    font-weight: bold;
+    font-size: 2em;
+  } */

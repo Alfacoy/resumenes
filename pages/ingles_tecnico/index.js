@@ -6,8 +6,8 @@ import Link from "next/link";
 const InglesTecnico = () => (
   <Layout>
     <Content>
-      <h2 className={style.title}>Inglés técnico</h2>
-      <div className={style.contenido}>
+      <h2 className={style.cat_title}>Inglés técnico</h2>
+      <div className={style.cat_contenido}>
         <article>
           <p>No hay nuevas entradas</p>
         </article>

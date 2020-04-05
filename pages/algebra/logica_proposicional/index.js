@@ -5,7 +5,7 @@ const Proposicional = () => (
   <Layout>
     <Content>
       <h2>Lógica proposicional</h2>
-      <article className={style.fora}>
+      <article className={style.cont_article}>
         <h3>¿Qué es la lógica?</h3>
         <p>
           Es una ciencia que se dedica a lo relativo a la razón, a la palabra y
@@ -31,8 +31,7 @@ const Proposicional = () => (
           correctamente y generar argumentos validos. La lógica es la base de
           todas las ciencias.
         </p>
-
-        <div className={style.remarque}>
+        <div className={style.cont_highlight}>
           <p>
             Una ciencia es producto de razonamientos y discursos. En este caso
             de argumentos. El nucleo de la lógica es el argumento y el argumento
@@ -42,29 +41,30 @@ const Proposicional = () => (
         </div>
       </article>
 
-      <article className={style.fora}>
+      <article className={style.cont_article}>
         <h3>¿Qué es una proposición o enunciado lógico?</h3>
 
         <p>
           Es una expresión con valor informativo que puede ser{" "}
-          <span className={style.remarque}>Verdadero</span> o{" "}
-          <span className={style.remarque}>Falso</span>, pero no ambos a la vez.
+          <span className={style.cont_highlight}>Verdadero</span> o{" "}
+          <span className={style.cont_highlight}>Falso</span>, pero no ambos a
+          la vez.
         </p>
 
-        <ul className={style.listas}>
+        <ul className={style.cont_list}>
           <h4>Son proposiciones</h4>
           <li>La luna es un planeta de nuestra galaxia.</li>
           <li>Los perros son mamiferos.</li>
           <li>La temperatura media de la Habana es bastante alta.</li>
         </ul>
-        <br />
-        <ul className={style.listas}>
+
+        <ul className={style.cont_list}>
           <h4>No son proposiciones</h4>
           <li>¡Baja el tono de voz!</li>
           <li>8 x 8</li>
           <li>Hoy es lunes.</li>
         </ul>
-        <br />
+
         <h3>Clasificación</h3>
 
         <p>
@@ -72,7 +72,7 @@ const Proposicional = () => (
             <u>Proposiciones simples</u>
           </b>
           : son aquellas que carecen de conectores lógicos. Por ejemplo:
-          <span className={style.remarque}>
+          <span className={style.cont_highlight}>
             "Argentina forma parte de America del Sur"
           </span>
           .
@@ -83,7 +83,7 @@ const Proposicional = () => (
           </b>
           : son el resultado de varias proposiciones simples, unidas por uno o
           más conectores lógicos. Por ejemplo:{" "}
-          <span className={style.remarque}>
+          <span className={style.cont_highlight}>
             "Argentina forma parte de America del sur y limita con cinco paises
             de este"
           </span>
@@ -182,33 +182,38 @@ const Proposicional = () => (
           </tbody>
         </table>
 
-        <ul className={style.listas}>
+        <ul className={style.cont_list}>
           <li>
             Siempre que se niegue, el valor será el{" "}
-            <span className={style.remarque}>contrario</span> del que ya tenga.
-          </li>
-          <li>
-            Siempre que se compare <span className={style.remarque}>P y Q</span>
-            , ambos deben valer 1 para que su resultado de 1. Sino, es 0.
-          </li>
-          <li>
-            Siempre que se compare <span className={style.remarque}>P o Q</span>
-            , almenos uno debe valer 1 para que su resultado sea 1. Sino, es 0.
+            <span className={style.cont_highlight}>contrario</span> del que ya
+            tenga.
           </li>
           <li>
             Siempre que se compare{" "}
-            <span className={style.remarque}>P o Q, no ambas</span>, una de las
-            dos debe valer 1 para que su resultado de 1. Si son iguales, es 0.
+            <span className={style.cont_highlight}>P y Q</span>, ambos deben
+            valer 1 para que su resultado de 1. Sino, es 0.
           </li>
           <li>
             Siempre que se compare{" "}
-            <span className={style.remarque}>P entonces Q</span>, y el primer
-            valor sea 1 y el segundo 0, va a valer 0. Todos los demas valen 1.
+            <span className={style.cont_highlight}>P o Q</span>, almenos uno
+            debe valer 1 para que su resultado sea 1. Sino, es 0.
           </li>
           <li>
             Siempre que se compare{" "}
-            <span className={style.remarque}>P si y solo si Q</span>, ambos
-            deben valer igual para que su resultado de 1. Sino, es 0.
+            <span className={style.cont_highlight}>P o Q, no ambas</span>, una
+            de las dos debe valer 1 para que su resultado de 1. Si son iguales,
+            es 0.
+          </li>
+          <li>
+            Siempre que se compare{" "}
+            <span className={style.cont_highlight}>P entonces Q</span>, y el
+            primer valor sea 1 y el segundo 0, va a valer 0. Todos los demas
+            valen 1.
+          </li>
+          <li>
+            Siempre que se compare{" "}
+            <span className={style.cont_highlight}>P si y solo si Q</span>,
+            ambos deben valer igual para que su resultado de 1. Sino, es 0.
           </li>
         </ul>
       </article>
