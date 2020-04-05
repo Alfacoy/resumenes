@@ -1,0 +1,17 @@
+.content {
+  grid-area: content;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+  font-size: 1.2em;
+  font-weight: 400;
+  box-sizing: border-box;
+
+  h3 {
+    text-align: start;
+  }
+  /*  p::first-letter {
+    font-weight: bold;
+    font-size: 2em;
+  } */
+}

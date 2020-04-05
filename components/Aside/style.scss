@@ -1,0 +1,28 @@
+.aside {
+  grid-area: aside;
+  border-right: 2px dashed black;
+  position: fixed;
+  width: 25%;
+  height: 100vh;
+  padding-left: 40px;
+  padding-top: 50px;
+}
+
+.navigator {
+  h4 {
+    margin-bottom: 10px;
+  }
+}
+
+.navigator_list {
+  li {
+    padding: 6px 0;
+  }
+
+  li:hover {
+    a {
+      padding: 0 20px;
+      background-color: yellowgreen;
+    }
+  }
+}

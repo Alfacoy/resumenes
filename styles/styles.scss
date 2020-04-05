@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik&display=swap");
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  font-size: 1.8em;
+  letter-spacing: 6px;
+  font-family: "Bebas Neue", cursive;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: 1.8em;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #82c7c7;
+}
+
+p {
+  text-align: justify;
+  margin: 40px 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2 {
+  background-color: yellowgreen;
+  padding: 0 20px;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.card {
+  padding: 10px 0;
+}
+
+.contenido {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fora {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.remarque {
+  background-color: yellowgreen;
+  padding: 0 5px;
+}
+
+.listas {
+  text-align: start;
+  h4 {
+    margin: 0;
+  }
+  li {
+    list-style: square;
+  }
+}

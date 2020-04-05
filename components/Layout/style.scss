@@ -1,0 +1,5 @@
+.grid {
+  display: grid;
+  grid-template-areas: "aside content";
+  grid-template-columns: 25% 1fr;
+}
