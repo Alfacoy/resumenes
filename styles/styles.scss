@@ -17,6 +17,10 @@ h3 {
 body {
   margin: 0;
   background-color: #82c7c7;
+
+  /*   background-image: url("/textura.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 p {
@@ -55,9 +59,9 @@ figure {
 }
 
 .title {
-  text-align: center;
   text-transform: uppercase;
   text-decoration: underline;
+  background-color: yellowgreen;
 }
 
 .card {
@@ -88,4 +92,16 @@ figure {
   li {
     list-style: square;
   }
+}
+
+table,
+td,
+th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 3px 10px;
+}
+
+th {
+  background-color: yellowgreen;
 }
