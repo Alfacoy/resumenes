@@ -1,5 +1,5 @@
 import Header from "../Header";
-import Footer from "../Footer";
+import Footer from "../footer";
 import Link from "next/link";
 import style from "./style.scss";
 
