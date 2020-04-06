@@ -6,7 +6,9 @@ import style from "../styles/styles.scss";
 const Home = () => (
   <Layout>
     <Content>
-      <h2>Bienvenidos estudiantes</h2>
+      <header className={style.cat_header}>
+        <h2 className={style.cat_title}>Bienvenidos estudiantes</h2>
+      </header>
       <p>
         Lorem Ipsum es simplemente el texto de relleno de las imprentas y
         archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de

@@ -6,12 +6,12 @@ import Link from "next/link";
 const AnalisisMatematico = () => (
   <Layout>
     <Content>
-      <h2 className={style.cat_title}>Análisis matemático</h2>
-      <div className={style.cat_contenido}>
-        <article>
-          <p>No hay nuevas entradas</p>
-        </article>
-      </div>
+      <header className={style.cat_header}>
+        <h2 className={style.cat_title}>Análisis matemático</h2>
+      </header>
+      <article className={style.cat_contenido}>
+        <p>No hay nuevas entradas</p>
+      </article>
     </Content>
   </Layout>
 );

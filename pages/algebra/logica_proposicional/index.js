@@ -4,7 +4,9 @@ import style from "../../../styles/styles.scss";
 const Proposicional = () => (
   <Layout>
     <Content>
-      <h2>Lógica proposicional</h2>
+      <header className={style.cat_header}>
+        <h2>Lógica proposicional</h2>
+      </header>
       <article className={style.cont_article}>
         <h3>¿Qué es la lógica?</h3>
         <p>

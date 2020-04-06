@@ -25,7 +25,6 @@ h3 {
 
 h1,
 h2 {
-  display: inline-block;
   background-color: $highlight;
   padding: 0 20px;
 }
@@ -83,18 +82,27 @@ th {
 }
 
 /*Cat_styles*/
+.cat_header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 .cat_title {
-  text-transform: uppercase;
   text-decoration: underline;
-  background-color: $highlight;
+  text-align: center;
 }
 
 .cat_card {
-  padding: 10px 0;
+  padding: 3px 5px;
+}
+
+.cat_card:hover {
+  background-color: $highlight;
 }
 
 .cat_contenido {
-  width: 100%;
   display: flex;
   justify-content: space-around;
 }
@@ -102,7 +110,6 @@ th {
 /*Cont_styles*/
 .cont_article {
   padding-bottom: 60px;
-  text-align: center;
 }
 
 .cont_highlight {
