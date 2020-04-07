@@ -1,3 +1,13 @@
+# Resúmenes
+
+Una web donde pueda alojar todos los resúmenes de cada cátedra de la facultad.
+
+- [Visita la web](https://resumenes.now.sh/)
+
+---
+
+# Thank you NextJS !!
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
